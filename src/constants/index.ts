@@ -23,9 +23,9 @@ export const sampleAppData: AppData[] = [
     rating: 4.5,
     downloads: "800K+",
     size: "15MB",
-    description: "Read story and enjoy it",
+    description:
+      "Discover a vast collection of captivating stories and immerse yourself in a world of imagination. StoryNest helps you relax and unwind with curated tales for every mood.",
     link: "https://expo.dev/artifacts/eas/j2xaq3HQ8n27jHVwD9mzz.apk",
-    // No link property - will show "Coming Soon"
   },
   {
     id: 2,
@@ -35,7 +35,8 @@ export const sampleAppData: AppData[] = [
     rating: 4.6,
     downloads: "500K+",
     size: "28MB",
-    description: "Track your workouts, calories, and fitness goals",
+    description:
+      "Stay motivated and on track with Daily Hidayah. Monitor your workouts, log calories, and achieve your fitness goals with personalized daily guidance and insights.",
     link: "https://expo.dev/artifacts/eas/wUUCcCta8zDgEJKNKevKRe.apk",
   },
   {
@@ -46,7 +47,8 @@ export const sampleAppData: AppData[] = [
     rating: 4.9,
     downloads: "2M+",
     size: "52MB",
-    description: "Stream millions of songs with high-quality audio",
+    description:
+      "Stream your favorite songs and discover new music every day. Wishpr delivers crystal-clear sound quality and a social platform to share your musical moments with friends.",
     link: "https://expo.dev/artifacts/eas/6BTrtexSz41fBBDUp5UW49.apk",
   },
 ];
