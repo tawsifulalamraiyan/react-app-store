@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Download, Star, Search } from "lucide-react";
+import { sampleAppData } from "./constants/index";
 
-// Define the App interface
 interface AppData {
   id: number;
   name: string;
@@ -15,74 +15,6 @@ interface AppData {
 }
 
 // Sample app data - replace this with your actual appData.json import
-const sampleAppData: AppData[] = [
-  {
-    id: 1,
-    name: "PhotoEditor Pro",
-    logo: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=100&h=100&fit=crop&crop=center",
-    category: "Photography",
-    rating: 4.8,
-    downloads: "1M+",
-    size: "45MB",
-    description: "Professional photo editing with advanced filters and tools",
-    link: "https://expo.dev/artifacts/eas/j2xaq3HQ8n27jHVwD9mzz.apk",
-  },
-  {
-    id: 2,
-    name: "FitnessTracker",
-    logo: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=100&h=100&fit=crop&crop=center",
-    category: "Health & Fitness",
-    rating: 4.6,
-    downloads: "500K+",
-    size: "28MB",
-    description: "Track your workouts, calories, and fitness goals",
-    // No link property - will show "Coming Soon"
-  },
-  {
-    id: 3,
-    name: "MusicStream",
-    logo: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=100&h=100&fit=crop&crop=center",
-    category: "Music",
-    rating: 4.9,
-    downloads: "2M+",
-    size: "52MB",
-    description: "Stream millions of songs with high-quality audio",
-    link: "https://example.com/music-app.apk",
-  },
-  {
-    id: 4,
-    name: "TaskManager",
-    logo: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=100&h=100&fit=crop&crop=center",
-    category: "Productivity",
-    rating: 4.5,
-    downloads: "800K+",
-    size: "15MB",
-    description: "Organize your tasks and boost productivity",
-    // No link property - will show "Coming Soon"
-  },
-  {
-    id: 5,
-    name: "GameCenter",
-    logo: "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=100&h=100&fit=crop&crop=center",
-    category: "Games",
-    rating: 4.7,
-    downloads: "3M+",
-    size: "120MB",
-    description: "Exciting puzzle and adventure games collection",
-    link: "https://example.com/game-center.apk",
-  },
-  {
-    id: 6,
-    name: "WeatherPlus",
-    logo: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=100&h=100&fit=crop&crop=center",
-    category: "Weather",
-    rating: 4.4,
-    downloads: "1.5M+",
-    size: "22MB",
-    description: "Accurate weather forecasts and alerts",
-    link: "https://example.com/weather-plus.apk",
-  },
-];
 
 const App = () => {
   const [apps, setApps] = useState<AppData[]>([]);
