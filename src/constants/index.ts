@@ -25,7 +25,7 @@ export const sampleAppData: AppData[] = [
     size: "15MB",
     description:
       "Discover a vast collection of captivating stories and immerse yourself in a world of imagination. StoryNest helps you relax and unwind with curated tales for every mood.",
-    link: "https://expo.dev/artifacts/eas/j2xaq3HQ8n27jHVwD9mzz.apk",
+    link: "https://expo.dev/artifacts/eas/pZCnP9RhXsUbqKmDZZfSZ2.apk",
   },
   {
     id: 2,
