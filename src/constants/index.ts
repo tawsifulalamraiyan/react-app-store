@@ -51,4 +51,16 @@ export const sampleAppData: AppData[] = [
       "Stream your favorite songs and discover new music every day. Wishpr delivers crystal-clear sound quality and a social platform to share your musical moments with friends.",
     link: "https://expo.dev/artifacts/eas/6BTrtexSz41fBBDUp5UW49.apk",
   },
+  {
+    id: 3,
+    name: "Story Nest Admin",
+    logo: storynest,
+    category: "Music",
+    rating: 4.9,
+    downloads: "2M+",
+    size: "52MB",
+    description:
+      "Stream your favorite songs and discover new music every day. Wishpr delivers crystal-clear sound quality and a social platform to share your musical moments with friends.",
+    link: "https://expo.dev/artifacts/eas/tNJhNzgnz5sLsz4y5rdvdq.apk",
+  },
 ];
